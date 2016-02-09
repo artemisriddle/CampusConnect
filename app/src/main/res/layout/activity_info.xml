@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abkgd">
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:id="@+id/student_name"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="36dp"-->
+        <!--android:textSize="28dp" />-->
+
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:background="@drawable/modal_rectangle"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+
+        <TableRow
+            android:layout_marginTop="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/student_ID"
+                android:id="@+id/id_label"
+                android:layout_column="1"
+                android:textColor="@color/blue"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/student_major"
+                android:id="@+id/student_id"
+                android:layout_column="2"
+                android:textColor="@color/blue"
+                android:textSize="18dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/student_major"
+                android:id="@+id/major_label"
+                android:layout_column="1"
+                android:textColor="@color/blue"
+                android:textSize="18dp"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/student_major"
+                android:text="help"
+                android:layout_column="2"
+                android:textColor="@color/blue"
+                android:textSize="18dp"/>
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email address"
+                android:id="@+id/textView6"
+                android:layout_column="1"
+                android:textColor="@color/blue"
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/student_email"
+                android:text="help"
+                android:layout_column="2"
+                android:textColor="@color/blue"
+                android:textSize="18dp"/>
+
+        </TableRow>
+
+    </TableLayout>
+</RelativeLayout>

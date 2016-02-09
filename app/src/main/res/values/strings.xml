@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Campus Connect</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="student_ID">Student ID:</string>
+    <string name="student_major">Student major(s):</string>
+    <string name="student_minor">Student minor(s):</string>
+</resources>

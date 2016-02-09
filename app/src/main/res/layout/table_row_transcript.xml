@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="60dp">
+
+    <TextView
+        android:id="@+id/tr_course_title"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:padding="5dip"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/tr_hours"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:padding="5dip"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/tr_grade"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:padding="5dip"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/tr_term"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:padding="5dip"
+        android:textColor="@color/white"
+        />
+
+</TableRow>
